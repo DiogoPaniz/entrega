@@ -10,8 +10,14 @@
 function confirma(confirmMsg){
     return confirm(confirmMsg);
 } 
+<<<<<<< HEAD
 
+=======
+>>>>>>> ramo-diogo
 
+function alerta(confirmMsg){ 
+	return alert (confirmMsg);;
+}
 
 //basta colocar esse evento en um campo qualquer: onKeyPress="soInterio(this)"
 function soInteiro(val){
