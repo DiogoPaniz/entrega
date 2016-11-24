@@ -7,6 +7,10 @@
  - function validaForm(formulario)
  *******************************************************************************/
 
+function liga(confirmMsg){
+    return confirm(confirmMsg);
+} 
+
 function confirma(confirmMsg){
     return confirm(confirmMsg);
 } 
