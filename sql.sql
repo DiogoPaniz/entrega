@@ -1,6 +1,20 @@
 SET FOREIGN_KEY_CHECKS=0;
 
 CREATE SCHEMA `produtosSchema` ;
+CREATE TABLE `produtos`    
+(
+	`cod_produto` INT NOT NULL AUTO_INCREMENT,
+	`cod_categoria` INT,
+	`desc_produto` VARCHAR(50),
+	`quantidade_atual` INT(10),
+	`quantidade_minima` INT(10),
+	`unidade` VARCHAR(20),
+	`valor_compra` FLOAT,
+	`valor_venda` FLOAT,
+	`imagem` varchar(50),
+	`destaque` VARCHAR(3),
+	 PRIMARY KEY (`cod_produto`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
 CREATE TABLE `categorias`
