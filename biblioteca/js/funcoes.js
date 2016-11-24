@@ -7,6 +7,10 @@
  - function validaForm(formulario)
  *******************************************************************************/
 
+ function desliga(confirmMsg){ 
+	return alert (confirmMsg);;
+}
+ 
 function confirma(confirmMsg){
     return confirm(confirmMsg);
 } 
