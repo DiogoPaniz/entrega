@@ -1,0 +1,83 @@
+﻿<!DOCTYPE HTML>
+<style>
+.container img { max-width: 200px; }
+</style>
+<html lang="pt-BR">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>.: Sistema WEB</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="php, mysql, js, html5, css3, responsive" />
+	<meta name="author" content="Rogério Xavier" />	
+	
+	<link rel="stylesheet" href="biblioteca/css/bootstrap.min.css" />
+	<script language="JavaScript" type="text/javascript" src="biblioteca/js/bootstrap.min.js"></script>		
+	<script language="JavaScript" type="text/javascript" src="biblioteca/js/jQuery.js"></script>
+	<script language="JavaScript" type="text/javascript" src="biblioteca/js/jquery.min.js"></script>
+	<script language="JavaScript" type="text/javascript" src="biblioteca/js/funcoes.js"></script>
+	
+	<script language="JavaScript" type="text/javascript" src="biblioteca/js/jquery.maskedinput.min.js"></script>	
+	<script>
+	$(function() {	// determina máscara pelo id do campo input
+		/*$("#nome").focus();
+		$("#numero").mask("9?999");
+		$("#cep").mask("99999-999");
+		$("#telefone").mask("(99) 9999-9999");*/
+	});	
+	
+	function enviarFormulario() {
+		var comboBox = document.getElementById("cod_categoria"),
+		    enviar   = document.getElementById("botao_enviar");
+			
+		enviar.href += comboBox.value;
+	}
+	
+	
+	</script>	
+	
+	<!-- opcional direto da internet --> 
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+</head>
+<body background="figuras/fundo_textura2.jpg">
+<div class="container-fluid">
+
+	<header class="masthead">
+		<h1 class="muted">Produtos</h1>
+		<nav class="navbar">
+			<div class="navbar-inner">
+				<div class="container">
+					<ul class="nav">
+						<li class="active dropdown"><a href="index.php"><i class="icon-home"></i>Home</a></li>
+						<li class="active dropdown"><a href="controller-categorias.class.php"><i class="icon-th"></i>Categorias</a></li>
+						<li class="active dropdown"><a href="controller-produtos.class.php"><i class="icon-shopping-cart"></i>Produtos</a></li>
+						<li class="active dropdown"><a href="#" data-toggle="dropdown"> <i class="icon-align-justify"></i>Menu<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="controller-relatorio.php?acao=relCla">Relatório Classificação</a></li>
+								<li><a href="controller-relatorio.php?acao=relEst">Relatório Estoque</a></li>
+							</ul>
+						<li class="active dropdown"><a href='inicial.php?acao=logout'><i class=" icon-off"></i>Sair</a></li>	
+						</li>	
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<table class="table table-bordered" width="80%" border="0" align="center" cellpadding="0" cellspacing="0">
+	  <tr class="navbar-inner">
+		<td class="col">
+		<p class="text-info" align="center" valign="center">{{corpo}}</p>
+		</td>
+	  </tr>
+	</table>
+	
+	<footer class="masthead" align="center">
+		<hr /><h4 class="muted">Programação Web - Desenvolvimento de Sistemas III</h4>
+	</footer>	
+</div>
+</body>
+<html>
