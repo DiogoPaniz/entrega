@@ -7,10 +7,17 @@
  - function validaForm(formulario)
  *******************************************************************************/
 
+<<<<<<< HEAD
  function desliga(confirmMsg){ 
 	return alert (confirmMsg);;
 }
  
+=======
+function liga(confirmMsg){
+    return confirm(confirmMsg);
+} 
+
+>>>>>>> diogo
 function confirma(confirmMsg){
     return confirm(confirmMsg);
 } 
