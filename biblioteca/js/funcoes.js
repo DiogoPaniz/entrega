@@ -7,6 +7,10 @@
  - function validaForm(formulario)
  *******************************************************************************/
 
+function confirma(confirmMsg){
+    return confirm(confirmMsg);
+} 
+
 
 
 //basta colocar esse evento en um campo qualquer: onKeyPress="soInterio(this)"
