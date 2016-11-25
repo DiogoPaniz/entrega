@@ -6,8 +6,14 @@
  - function abrePopup(url,nome,w,h,s)
  - function validaForm(formulario)
  *******************************************************************************/
- function ajuda(confirmMsg){ 
-	return alert (confirmMsg);;
+<<<<<<< HEAD
+function ajuda(confirmMsg){ 
+	return alert (confirmMsg);
+}
+ 
+function fechar(confirmMsg){ 
+>>>>>>> cristiano-ramo
+	return alert (confirmMsg);
 }
 <<<<<<< HEAD
  function desliga(confirmMsg){ 
