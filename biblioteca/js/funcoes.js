@@ -6,7 +6,11 @@
  - function abrePopup(url,nome,w,h,s)
  - function validaForm(formulario)
  *******************************************************************************/
-<<<<<<< HEAD
+
+ function testeDiogo(confirmMsg){ 
+	return alert (confirmMsg);
+}
+ <<<<<<< HEAD
 function ajuda(confirmMsg){ 
 	return alert (confirmMsg);
 }
