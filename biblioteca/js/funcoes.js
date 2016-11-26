@@ -7,6 +7,10 @@
  - function validaForm(formulario)
  *******************************************************************************/
 <<<<<<< HEAD
+function testeCristiano(confirmMsg){ 
+	return alert (confirmMsg);
+}
+ 
 function ajuda(confirmMsg){ 
 	return alert (confirmMsg);
 }
