@@ -6,7 +6,7 @@
  - function abrePopup(url,nome,w,h,s)
  - function validaForm(formulario)
  *******************************************************************************/
-<<<<<< HEAD
+<<<<<<<< HEAD
 function testeCristiano(confirmMsg){ 
 	return alert (confirmMsg);
 }
